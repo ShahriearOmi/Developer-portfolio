@@ -1,5 +1,7 @@
+
 *{
     margin: 0;
+  
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -10,7 +12,15 @@
     background-image: url("../images/header_bg.png"), url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, top left;
+    margin-left: 10px;   
+
 }
+
+
+.hardy-image{
+    padding-right: 10px;
+}
+
 
 .section{
     margin-top: 130px; 
@@ -29,7 +39,7 @@
     font-weight: 700;
     font-size: 20px;
     border: 0;
-    padding: 18px 35px;
+    padding: 18px 56px ;
 }
 
 
@@ -62,8 +72,13 @@ nav ul{
 .banner{
     display: flex;
     align-items: center;
-    margin: 0 200px  ;
+    margin: 0 200px ;
+
 }
+.banner img{
+    margin-left: 350px;
+}
+
 
 
 .banner-sub-title{
@@ -105,11 +120,13 @@ main{
 
 
 /* About Section Styles */
+
 .about{
-    
+    margin-top: 100px;
     border-radius: 10px;
     background: #FFF8F3;
-    padding: 130px 150px;
+    padding: 15px 150px;
+    padding-bottom: 150px;
     text-align: center;
 }
 
@@ -173,7 +190,6 @@ main{
 }
 
 
-
 .section-title{
     text-align: center;
     font-size: 40px;
@@ -194,6 +210,7 @@ main{
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 
 .resume .title{
     font-weight: 700px;
@@ -226,17 +243,47 @@ main{
 /* Contact Styles */
 
 .contact{
+    margin-top: 100px;
     display: flex;
     gap: 100px;
     background: #FFF8F3;
-    padding: 130px 200px;
+    padding: 50px 150px;
 }
 
 
 .contact .section-title{
         text-align: left;
+        margin-top: 50px;
+        padding-top: 30px;        
 
 }
+
+
+.section-title{
+    margin-top: 130px;
+}
+
+
+.contact-title{
+    margin-top: 40px;
+    margin-left: 3px;
+    font-size: 50px;
+
+}
+
+a, img{
+    margin-top: 4px;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+
+
+
+.section-description{
+    margin-bottom: 30px;
+}
+
 
 
 
@@ -244,14 +291,60 @@ main{
     margin-bottom: 24px;
     border: 0;
     width: 100%;
-    padding: 18px 30px;
+    padding: 18px 32px;
 } 
 
+
 input{
-        height: 64px;
+    height: 20px;
 }
 
 
 .contact a{
     text-decoration: none;
+    padding-top: 20px;
+    justify-content: flex-start;
 }
+
+
+
+.submit{
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    padding: 20px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+
+.ttl{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+a{
+    display: inline-block;
+    
+}
+
+
+.section-paragraph{
+    text-align: center;
+    font-size: 20px;
+    color: #808080fa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
